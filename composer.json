@@ -1,0 +1,16 @@
+{
+    "name": "wallace/serach-cep",
+    "description": "Busca de CEP online",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Wallace\\SearchCep\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
